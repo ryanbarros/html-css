@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa ? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#x1f60a</p>
+    <picture>
+        <source media="(max-width:550px )" srcset="imagens/universo-p.jpg" type="image/jpg">
+        <source media="(max-width:1650px )" srcset="imagens/universo-m.jpg" type="image/jpg">
+        <img src="imagens/universo-g.jpg" alt="imagem do universo">
+    </picture>
+</body>
+</html>

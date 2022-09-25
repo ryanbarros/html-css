@@ -1,0 +1,18 @@
+h1{
+    font-family: Arial;
+    color: white;
+    margin-top: 50px;
+}
+
+
+body{
+    background-color: skyblue;
+    text-align: center;
+    
+}
+
+a{
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration:none;
+}

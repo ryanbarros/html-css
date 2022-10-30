@@ -19,6 +19,13 @@
             padding: 10px;
         }
 
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
         td.num{
             text-align: right;
         }
@@ -34,20 +41,23 @@
     <!--
         ANATOMIA DA TABELA GRANDE
         TABLE
+            CAPTION
             TR,TD,TH
         TBODY
             TR,TD,TH
         TFOOT
-            TR,TD,TH
+        TR,TD,TH
     -->
     <table>
+        
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
-
+        
         <tbody>
             <tr>
                 <td>São Paulo</td>
@@ -162,7 +172,7 @@
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes </th>
+                <th scope="row">Total de Habitantes </th>
                 <td class="num"><strong>213.317.639</strong></td>
             </tr>
         </tfoot>
